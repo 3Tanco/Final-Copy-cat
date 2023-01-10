@@ -1,0 +1,58 @@
+
+body { 
+    background-color:  #fefe98;
+
+}
+
+.Hat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    background-image: url(assest/the-hat-header-2.jpg);
+    
+}
+
+
+.Diner {
+    display: block;
+    margin-left: 25%;
+    margin-right: 75%;
+    
+    
+    background-image: url(assest/the-hat-logo-1-1.png);
+
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(116, 21, 21);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+.flex-container > div {
+    background-color: rgb(116, 21, 21);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.button {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   border: 3px solid rgb(116, 21, 21);
+}
+
+button {
+    background-color: rgb(116, 21, 21);
+    border: none;
+    font-size: large;
+    color: white;
+    
+    
+}
